@@ -1,9 +1,66 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo {/* App.css */
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .editor {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  .text-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .toolbar {
+    background-color: #f0f0f0;
+    border: none;
+  }
+  
+  .editor-wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .editor-content {
+    min-height: 600px;
+  }
+  
+  .preview {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: left;
+    margin-bottom: 30p;
+  }
+  
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,17 +72,26 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(6px + 1vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App .editor {
+  width: 900px;
+  height: 580px;
+  border: 2px solid;
+  margin-left: 20%;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +102,11 @@
     transform: rotate(360deg);
   }
 }
+/* Animation.css */
+/* TextEditor.css */
+
+.background-gradient {
+  background: linear-gradient(to bottom, #f7f8f9, #ffffff);
+}
+
+/* Add any other styles you need for your TextEditor component */
